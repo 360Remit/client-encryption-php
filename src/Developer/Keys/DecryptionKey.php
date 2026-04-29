@@ -18,6 +18,11 @@ class DecryptionKey  {
      */
     private $mPassword;
 
+    /** 
+     * @var string|null
+     */
+    private $mPath;
+
     
     private function __construct(){
         // This class can't be instantiated
